@@ -1,0 +1,28 @@
+/* --------------------Navbar--------------------- */
+
+/*---Tablets and Mobile ---*/
+
+@media (min-width: 250px) and (max-width: 1024px) {
+  .customMarginButton {
+    margin-left: 0;
+  }
+}
+
+/* -------------------- Content --------------------- */
+
+/*---Tablets and Mobile ---*/
+
+@media (min-width: 250px) and (max-width: 1024px) {
+ .jackpotFont{
+   float: unset;
+   text-align: center;
+ }
+.content-section{
+  /* padding-left:2rem; */
+}
+.contentPaddingTop {
+  padding-top: 1rem;
+}
+}
+
+
