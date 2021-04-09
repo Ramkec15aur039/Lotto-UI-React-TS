@@ -1,12 +1,39 @@
+/*---Container responsive---*/
+
+/*---Mobile---*/
+
+@media (max-width: 350px) {
+  .container {
+    max-width: 1390px !important;
+  }
+}
+
+/*---Tablets---*/
+
+@media (min-width: 250px) and (max-width: 1024px) {
+  .container {
+    max-width: 1242px !important;
+  }
+}
+
+/*---Desktop devices---*/
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1290px !important;
+  }
+}
+
 /* --------------------Navbar--------------------- */
 
 /*---Tablets and Mobile ---*/
 
 @media (min-width: 250px) and (max-width: 1024px) {
-  .ml{
+  .ml {
     margin-left: 0 !important;
   }
-  .mr{  
+
+  .mr {
     margin-right: 0 !important;
   }
 }
@@ -16,13 +43,17 @@
 /*---Tablets and Mobile ---*/
 
 @media (min-width: 250px) and (max-width: 1024px) {
- .jackpotFont{
-   float: unset;
-   text-align: center;
- }
-.contentPaddingTop {
-  padding-top: 1rem;
-}
-}
+  .jackpotFont {
+    float: unset;
+    text-align: center;
+  }
 
+  .contentPaddingTop {
+    padding-top: 1rem;
+  }
 
+  .adTop,
+  .adLeft {
+    display: none;
+  }
+}
