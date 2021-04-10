@@ -1,8 +1,17 @@
-import "./content.css";
+import React, {useEffect} from "react";
+import NavgiationBar from "../../Components/NavigationBar/Navgationbar";
+import "./homePage.css";
 import Button from "react-bootstrap/Button";
-export default function Content() {
+import { Link } from "react-router-dom";
+
+export default function HomePage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
-    <>
+    <div>
+      <NavgiationBar />
       <section className="content-section">
         <div className="container">
           <div className="row ">
@@ -126,9 +135,14 @@ export default function Content() {
                         </div>
                       </div>
                       <div className="col-md-3 pt-4 text-center">
-                        <Button variant="primary" className="btnCustom responsive">
-                          Play For Jackpot
-                        </Button>
+                        <Link to="/PlayForJackpot" className="link">
+                          <Button
+                            variant="primary"
+                            className="btnCustom mr-lg-3"
+                          >
+                            Play For Jackpot
+                          </Button>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -520,6 +534,6 @@ export default function Content() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

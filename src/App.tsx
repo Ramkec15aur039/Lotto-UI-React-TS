@@ -1,16 +1,40 @@
-import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.css';
-import NavgiationBar from "./Components/NavigationBar/Navgationbar";
-import Content from "./Components/Content/Content";
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+
+
+/* =============== Pages Imports =================== */
+import HomePage from "./Pages/Home";
+import PlayForJackpot from "./Pages/PlayForJackpot";
+import JackpotBet from "./Pages/JackpotBet"
+import ChooseColor from "./Pages/ChooseColor"
 
 function App() {
   return (
-    <>
-      <NavgiationBar />
-      <Content />
-    </>
+    <div>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" render={(props: any) => <HomePage />} />
+          <Route
+            exact
+            path="/PlayForJackpot"
+            render={(props: any) => <PlayForJackpot />}
+          />
+          <Route
+            exact
+            path="/JackpotBet"
+            render={(props: any) => <JackpotBet />}
+          />
+          <Route
+            exact
+            path="/ChooseColor"
+            render={(props: any) => <ChooseColor />}
+          />
+        </Switch>
+      </BrowserRouter>
+    </div>
   );
 }
 

@@ -38,7 +38,7 @@
   }
 }
 
-/* -------------------- Content --------------------- */
+/* -------------------- Content - HomePage --------------------- */
 
 /*---Tablets and Mobile ---*/
 
@@ -83,5 +83,40 @@
   }
   .NavButtonMargin {
     margin-left: 0 !important;
+  }
+}
+
+/* -------------------- Content - Play for Jackpot --------------------- */
+
+/*---Tablets and Mobile ---*/
+
+@media (min-width: 250px) and (max-width: 1024px) {
+  .rowPosition{
+    position: absolute !important;
+    bottom: 10px;
+  }
+  .BtnPadding{
+    padding-top: 0 !important;
+    padding-bottom: 1rem;
+  }
+  .yourBets{
+    height: 700px !important;
+  }
+  .jackpotBetUl{
+    margin-left: 1rem;
+  }
+}
+
+/* -------------------- Content - Play Jackpot bet --------------------- */
+
+/*---Tablets and Mobile ---*/
+
+@media (min-width: 250px) and (max-width: 1024px) {
+  .jackpotBetCard{
+    margin-top: 1rem !important;
+  }
+  .submitBet{
+    padding-top: 2rem !important;
+    padding-bottom: 1rem;
   }
 }

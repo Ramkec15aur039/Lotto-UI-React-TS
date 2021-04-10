@@ -31,4 +31,8 @@
 }
 .NavButtonMargin {
   margin-left: 5rem;
+  border:hidden !important;
+}
+.link{
+  text-decoration: none;
 }
