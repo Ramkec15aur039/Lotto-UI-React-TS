@@ -47,13 +47,41 @@
     float: unset;
     text-align: center;
   }
-
   .contentPaddingTop {
     padding-top: 1rem;
   }
-
   .adTop,
   .adLeft {
     display: none;
+  }
+  #brandFont {
+    padding-left: 1rem;
+  }
+  .navbar-toggler {
+    padding-right: 2rem;
+  }
+  .btnCustom.responsive {
+    margin-bottom: 2rem;
+  }
+  .marginResponsive {
+    margin-left: 6rem !important;
+  }
+  .col-md-6.paddingMobile {
+    padding-left: 0;
+  }
+  .PreviousDraw {
+    padding-left: 1rem;
+  }
+  .ulResponsive {
+    padding-top: 1.8rem;
+  }
+  .cardResponsive {
+    text-align: center;
+  }
+  .navResponsive {
+    text-align: center;
+  }
+  .NavButtonMargin {
+    margin-left: 0 !important;
   }
 }

@@ -52,7 +52,7 @@ export default function Content() {
                 <div className="col-12">
                   <div className="jackpotBox">
                     <div className="row">
-                      <div className="col-md-2 pt-3 text-right">
+                      <div className="col-md-2 pt-3 text-center">
                         <span>Lotto 60</span>
                         <br />
                         <span>Jackpot</span>
@@ -60,7 +60,7 @@ export default function Content() {
                       <div className="col-md-7">
                         <div className="row">
                           <div className="col-md-10">
-                            <div className="row">
+                            <div className="row marginResponsive">
                               <div className="col-md-2">
                                 <div className="sphere">
                                   <section className="stage">
@@ -125,8 +125,8 @@ export default function Content() {
                           </div>
                         </div>
                       </div>
-                      <div className="col-md-3 pt-4">
-                        <Button variant="primary" className="btnCustom">
+                      <div className="col-md-3 pt-4 text-center">
+                        <Button variant="primary" className="btnCustom responsive">
                           Play For Jackpot
                         </Button>
                       </div>
@@ -145,7 +145,7 @@ export default function Content() {
                         <div className="col-md-6 removePadding text-left">
                           <small>Apr 07,23:00</small>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 paddingMobile">
                           <small>Price Pool $1,00,000</small>
                         </div>
                       </div>
@@ -184,13 +184,13 @@ export default function Content() {
                 </div>
 
                 <div className="col-4 pt-5">
-                  <ul className="PreviousDraw">
+                  <ul className="PreviousDraw ulResponsive">
                     <div className="col-12">
                       <div className="row">
                         <div className="col-md-6 removePadding">
                           <small>Apr 07,23:00</small>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 paddingMobile">
                           <small>Price Pool $1,00,000</small>
                         </div>
                       </div>
@@ -229,13 +229,13 @@ export default function Content() {
                 </div>
 
                 <div className="col-4 pt-5">
-                  <ul className="PreviousDraw">
+                  <ul className="PreviousDraw ulResponsive">
                     <div className="col-12">
                       <div className="row">
                         <div className="col-md-6 removePadding">
                           <small>Apr 07,23:00</small>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 paddingMobile">
                           <small>Price Pool $1,00,000</small>
                         </div>
                       </div>
@@ -278,7 +278,7 @@ export default function Content() {
                 <div className="col-12">
                   <div className="footerCustomContainer">
                     <div className="row p-3">
-                      <div className="col-md-4">
+                      <div className="col-md-4 cardResponsive">
                         Recent Draw{" "}
                         <span>
                           <i className="fas fa-calendar-alt"></i>
@@ -288,7 +288,7 @@ export default function Content() {
                       <div className="col-md-4"></div>
                     </div>
                     <div className="row p-lg-3">
-                      <div className="col-md-5">
+                      <div className="col-md-5 cardResponsive">
                         <p>Winning Numbers</p>
                         <ul className="winningNumbers">
                           <li>
@@ -333,7 +333,7 @@ export default function Content() {
                       </div>
                     </div>
                     <div className="row p-lg-3">
-                      <div className="col-md-5">
+                      <div className="col-md-5 cardResponsive">
                         <p>Winning Numbers</p>
                         <ul className="winningNumbers">
                           <li>
@@ -378,7 +378,7 @@ export default function Content() {
                       </div>
                     </div>
                     <div className="row p-lg-3">
-                      <div className="col-md-5">
+                      <div className="col-md-5 cardResponsive">
                         <p>Winning Numbers</p>
                         <ul className="winningNumbers">
                           <li>
@@ -423,7 +423,7 @@ export default function Content() {
                       </div>
                     </div>
                     <div className="row p-lg-3">
-                      <div className="col-md-5">
+                      <div className="col-md-5 cardResponsive">
                         <p>Winning Numbers</p>
                         <ul className="winningNumbers">
                           <li>
@@ -468,7 +468,7 @@ export default function Content() {
                       </div>
                     </div>
                     <div className="row p-lg-3">
-                      <div className="col-md-5">
+                      <div className="col-md-5 cardResponsive">
                         <p>Winning Numbers</p>
                         <ul className="winningNumbers">
                           <li>

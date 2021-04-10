@@ -10,7 +10,7 @@ export default function NavgiationBar(props: any) {
           Lotto 60
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="navResponsive">
           <Nav className="ml">
             <Nav.Link href="#home" className="mr navFont">
               Home
@@ -32,7 +32,7 @@ export default function NavgiationBar(props: any) {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <Navbar.Collapse className="NavButtonMargin">
+        <Navbar.Collapse className="NavButtonMargin navbar-toggler navResponsive">
           <Button variant="primary" className="btnCustom mr-lg-3">
             Play For Jackpot
           </Button>
