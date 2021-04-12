@@ -19,9 +19,7 @@ export default function NavgiationBar(props: any) {
                 Home
               </Link>
             </Nav.Link>
-
             <Nav.Link className="mr navFont">Fund</Nav.Link>
-
             <Nav.Link href="#home" className="mr navFont">
               Activity
             </Nav.Link>
@@ -37,14 +35,16 @@ export default function NavgiationBar(props: any) {
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="NavButtonMargin navbar-toggler navResponsive">
-          <Link to="/PlayForJackpot" className="link">
+          <Link to="/PlaceYourJackpotBet" className="link">
             <Button variant="primary" className="btnCustom mr-lg-3">
               Play For Jackpot
             </Button>
           </Link>
-          <Button variant="primary" className="btnCustom mr-lg-3">
-            Play For Fun
-          </Button>
+          <Link to="/PlaceYourJackpotBet" className="link">
+            <Button variant="primary" className="btnCustom mr-lg-3">
+              Play For Fun
+            </Button>
+          </Link>
         </Navbar.Collapse>
       </Navbar>
     </section>

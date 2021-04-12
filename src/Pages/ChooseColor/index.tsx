@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import NavgiationBar from "../../Components/NavigationBar/Navgationbar";
 import Button from "react-bootstrap/Button";
-import "../PlayForJackpot/playForJackpot.css";
+import "../PlaceYourJackpotBet/PlaceYourJackpotBet.css";
 import "../JackpotBet/jackpotBet.css";
 import "./ChooseColor.css";
+import { Link } from "react-router-dom";
 
 export default function ChooseColor() {
   useEffect(() => {
@@ -23,35 +24,25 @@ export default function ChooseColor() {
             <div className="row jackpotBetMargin">
               <div className="col-md-12">
                 <ul className="displayProperty chooseColor">
-                  <li>
-                    <i className="fas fa-baseball-ball baseball">
-                      <span className="baseBallNumber"></span>
-                    </i>
+                  <li className="mt-3">
+                    <i className="fa fa-circle chooseColorRed"></i>
+                    <i className="fa fa-circle chooseColorBlack"></i>
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGrey"></i>
                   </li>
                   <li>
-                    <i className="fas fa-baseball-ball baseball">
-                      <span className="baseBallNumber"></span>
-                    </i>
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGrey"></i>
                   </li>
                   <li>
-                    <i className="fas fa-baseball-ball baseball">
-                      <span className="baseBallNumber"></span>
-                    </i>
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGrey"></i>
                   </li>
                   <li>
-                    <i className="fas fa-baseball-ball baseball">
-                      <span className="baseBallNumber"></span>
-                    </i>
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGrey"></i>
                   </li>
                   <li>
-                    <i className="fas fa-baseball-ball baseball">
-                      <span className="baseBallNumber"></span>
-                    </i>
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGrey"></i>
                   </li>
                   <li>
-                    <i className="fas fa-baseball-ball baseball">
-                      <span className="baseBallNumber"></span>
-                    </i>
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGrey"></i>
                   </li>
                 </ul>
               </div>
@@ -59,19 +50,23 @@ export default function ChooseColor() {
             <div className="row">
               <div className="col-md-3"></div>
               <div className="col-md-3 submitBet">
-                <Button variant="primary" className="btnCustom">
-                  Continue
-                </Button>
+                <Link to="/JackpotBet">
+                  <Button variant="primary" className="btnCustom">
+                    Continue
+                  </Button>
+                </Link>
               </div>
               <div className="col-md-3 submitBet">
-                <Button variant="outline-primary" className="skipButton">
-                  Skip
-                </Button>
+                <Link to="/JackpotBet">
+                  <Button variant="outline-primary" className="skipButton">
+                    Skip
+                  </Button>
+                </Link>
               </div>
               <div className="col-md-3"></div>
             </div>
           </div>
-          <div className="col-md-4 yourBets">
+          <div className="col-md-5 yourBets">
             <div className="row colPadding">
               <div className="col-12">
                 <h3>Your Bets</h3>
@@ -85,34 +80,46 @@ export default function ChooseColor() {
                     <div className="row">
                       <div className="col-12">
                         <ul className="PreviousDraw paddingLeft">
-                          <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size">
-                              <span className="baseBallNumber"></span>
+                          <li className="mt-3">
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">0</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size">
-                              <span className="baseBallNumber"></span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">5</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size">
-                              <span className="baseBallNumber"></span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span>15</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size">
-                              <span className="baseBallNumber"></span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">8</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size">
-                              <span className="baseBallNumber"></span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span>25</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size baseballCyan">
-                              <span className="baseBallNumber"></span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGreen">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">7</span>
+                              </div>
                             </i>
                           </li>
                         </ul>
@@ -121,34 +128,46 @@ export default function ChooseColor() {
                     <div className="row">
                       <div className="col-12">
                         <ul className="PreviousDraw paddingLeft">
-                          <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size">
-                              <span className="baseBallNumber"></span>
+                          <li className="mt-3">
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">0</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size">
-                              <span className="baseBallNumber"></span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">5</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size">
-                              <span className="baseBallNumber"></span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span>15</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size">
-                              <span className="baseBallNumber"></span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">8</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size">
-                              <span className="baseBallNumber"></span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span>25</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size baseballCyan">
-                              <span className="baseBallNumber"></span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGreen">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">7</span>
+                              </div>
                             </i>
                           </li>
                         </ul>

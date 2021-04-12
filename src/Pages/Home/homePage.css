@@ -74,8 +74,13 @@
   color: red;
 }
 
-.baseballCyan {
-  color: cyan;
+.baseballGreen {
+  color: green;
+}
+
+.baseballBlack {
+  color: black;
+  font-size: 27px !important;
 }
 
 .fontWhite span {
@@ -106,11 +111,15 @@
 
 .baseballPreviousDraw > .baseBallNumber {
   color: black;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   position: absolute;
   top: 30%;
-  left: 35%;
+  left: 24%;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: white;
 }
 
 /* ---------------------------- Footer Section ------------------------------- */
@@ -619,3 +628,4 @@
 .previousDrawFont {
   font-size: 18px;
 }
+

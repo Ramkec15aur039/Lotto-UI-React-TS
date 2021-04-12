@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import NavgiationBar from "../../Components/NavigationBar/Navgationbar";
 import Button from "react-bootstrap/Button";
-import "./playForJackpot.css";
+import "./PlaceYourJackpotBet.css";
 import { Link } from "react-router-dom";
 export default function PlayForJackpot() {
   useEffect(() => {
@@ -20,66 +20,48 @@ export default function PlayForJackpot() {
             </div>
             <div className="row">
               <div className="col-md-12">
-                <ul className="jackpotBetUl">
-                  <li>
-                    <div className="sphere">
-                      <section className="stage">
-                        <figure className="ball red">
-                          <span className="shadow"></span>
-                          <span className="eight"></span>
-                        </figure>
-                      </section>
-                    </div>
+                <ul className="jackpotBetUl text-center">
+                  <li className="mt-3">
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGrey">
+                      <div className="baseBallNumber">
+                        <span className="ml-1 pt-2">0</span>
+                      </div>
+                    </i>
                   </li>
                   <li>
-                    <div className="sphere">
-                      <section className="stage">
-                        <figure className="ball">
-                          <span className="shadow"></span>
-                          <span className="eight"></span>
-                        </figure>
-                      </section>
-                    </div>
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGrey">
+                      <div className="baseBallNumber">
+                        <span className="ml-1 pt-2">5</span>
+                      </div>
+                    </i>
                   </li>
                   <li>
-                    <div className="sphere">
-                      <section className="stage">
-                        <figure className="ball red">
-                          <span className="shadow"></span>
-                          <span className="eight"></span>
-                        </figure>
-                      </section>
-                    </div>
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGrey">
+                      <div className="baseBallNumber">
+                        <span>15</span>
+                      </div>
+                    </i>
                   </li>
                   <li>
-                    <div className="sphere">
-                      <section className="stage">
-                        <figure className="ball green">
-                          <span className="shadow"></span>
-                          <span className="eight"></span>
-                        </figure>
-                      </section>
-                    </div>
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGrey">
+                      <div className="baseBallNumber">
+                        <span className="ml-1 pt-2">8</span>
+                      </div>
+                    </i>
                   </li>
                   <li>
-                    <div className="sphere">
-                      <section className="stage">
-                        <figure className="ball">
-                          <span className="shadow"></span>
-                          <span className="eight"></span>
-                        </figure>
-                      </section>
-                    </div>
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGrey">
+                      <div className="baseBallNumber">
+                        <span>25</span>
+                      </div>
+                    </i>
                   </li>
                   <li>
-                    <div className="sphere">
-                      <section className="stage">
-                        <figure className="ball red">
-                          <span className="shadow"></span>
-                          <span className="eight"></span>
-                        </figure>
-                      </section>
-                    </div>
+                    <i className="fas fa fa-circle baseballJackpotBet baseballGreen">
+                      <div className="baseBallNumber">
+                        <span className="ml-1 pt-2">7</span>
+                      </div>
+                    </i>
                   </li>
                 </ul>
               </div>
@@ -101,7 +83,7 @@ export default function PlayForJackpot() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 yourBets">
+          <div className="col-md-5 yourBets">
             <div className="row colPadding">
               <div className="col-12">
                 <h3>Your Bets</h3>
@@ -115,34 +97,46 @@ export default function PlayForJackpot() {
                     <div className="row">
                       <div className="col-12">
                         <ul className="PreviousDraw paddingLeft">
-                          <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size  baseballRed">
-                              <span className="baseBallNumber">0</span>
+                          <li className="mt-3">
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">0</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size baseballRed">
-                              <span className="baseBallNumber">2</span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">5</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size fontWhite">
-                              <span className="baseBallNumber">25</span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span>15</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size baseballRed">
-                              <span className="baseBallNumber">15</span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">8</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size fontWhite">
-                              <span className="baseBallNumber">1</span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGrey">
+                              <div className="baseBallNumberMediumSize">
+                                <span>25</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball baseballPreviousDraw size baseballCyan">
-                              <span className="baseBallNumber">2</span>
+                            <i className="fas fa fa-circle baseballJackpotBet mediumSize baseballGreen">
+                              <div className="baseBallNumberMediumSize">
+                                <span className="ml-1 pt-2">7</span>
+                              </div>
                             </i>
                           </li>
                         </ul>

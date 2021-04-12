@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 /* =============== Pages Imports =================== */
 import HomePage from "./Pages/Home";
-import PlayForJackpot from "./Pages/PlayForJackpot";
+import PlaceYourJackpotBet from "./Pages/PlaceYourJackpotBet";
 import JackpotBet from "./Pages/JackpotBet"
 import ChooseColor from "./Pages/ChooseColor"
 
@@ -19,8 +19,8 @@ function App() {
           <Route exact path="/" render={(props: any) => <HomePage />} />
           <Route
             exact
-            path="/PlayForJackpot"
-            render={(props: any) => <PlayForJackpot />}
+            path="/PlaceYourJackpotBet"
+            render={(props: any) => <PlaceYourJackpotBet />}
           />
           <Route
             exact

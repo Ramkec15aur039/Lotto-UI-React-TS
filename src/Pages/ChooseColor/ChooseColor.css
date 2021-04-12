@@ -14,3 +14,11 @@
     float: unset;
     text-align: center;
 }
+.chooseColorRed{
+  color: red;
+  float: left;
+}
+.chooseColorBlack{
+  color: black;
+  float: right;
+}

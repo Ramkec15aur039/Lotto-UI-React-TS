@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import NavgiationBar from "../../Components/NavigationBar/Navgationbar";
 import "./homePage.css";
 import Button from "react-bootstrap/Button";
@@ -8,7 +8,7 @@ export default function HomePage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <div>
       <NavgiationBar />
@@ -135,7 +135,7 @@ export default function HomePage() {
                         </div>
                       </div>
                       <div className="col-md-3 pt-4 text-center">
-                        <Link to="/PlayForJackpot" className="link">
+                        <Link to="/PlaceYourJackpotBet" className="link">
                           <Button
                             variant="primary"
                             className="btnCustom mr-lg-3"
@@ -165,33 +165,45 @@ export default function HomePage() {
                       </div>
                     </div>
                     <li className="mt-3">
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballRed">
-                        <span className="baseBallNumber">0</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">0</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballRed">
-                        <span className="baseBallNumber">2</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">5</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw fontWhite">
-                        <span className="baseBallNumber">25</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                        <div className="baseBallNumber">
+                          <span>15</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballRed">
-                        <span className="baseBallNumber">15</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">8</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw fontWhite">
-                        <span className="baseBallNumber">1</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                        <div className="baseBallNumber">
+                          <span>25</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballCyan">
-                        <span className="baseBallNumber">2</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballGreen">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">7</span>
+                        </div>
                       </i>
                     </li>
                   </ul>
@@ -210,33 +222,45 @@ export default function HomePage() {
                       </div>
                     </div>
                     <li className="mt-3">
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballRed">
-                        <span className="baseBallNumber">0</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">0</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballRed">
-                        <span className="baseBallNumber">2</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">5</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw fontWhite">
-                        <span className="baseBallNumber">25</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                        <div className="baseBallNumber">
+                          <span>15</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballRed">
-                        <span className="baseBallNumber">15</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">8</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw fontWhite">
-                        <span className="baseBallNumber">1</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                        <div className="baseBallNumber">
+                          <span>25</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballCyan">
-                        <span className="baseBallNumber">2</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballGreen">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">7</span>
+                        </div>
                       </i>
                     </li>
                   </ul>
@@ -255,33 +279,45 @@ export default function HomePage() {
                       </div>
                     </div>
                     <li className="mt-3">
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballRed">
-                        <span className="baseBallNumber">0</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">0</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballRed">
-                        <span className="baseBallNumber">2</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">5</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw fontWhite">
-                        <span className="baseBallNumber">25</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                        <div className="baseBallNumber">
+                          <span>15</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballRed">
-                        <span className="baseBallNumber">15</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">8</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw fontWhite">
-                        <span className="baseBallNumber">1</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                        <div className="baseBallNumber">
+                          <span>25</span>
+                        </div>
                       </i>
                     </li>
                     <li>
-                      <i className="fas fa-baseball-ball baseballPreviousDraw baseballCyan">
-                        <span className="baseBallNumber">2</span>
+                      <i className="fas fa fa-circle baseballPreviousDraw baseballGreen">
+                        <div className="baseBallNumber">
+                          <span className="ml-1">7</span>
+                        </div>
                       </i>
                     </li>
                   </ul>
@@ -305,79 +341,46 @@ export default function HomePage() {
                       <div className="col-md-5 cardResponsive">
                         <p>Winning Numbers</p>
                         <ul className="winningNumbers">
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">0</span>
+                          <li className="mt-3">
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">0</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">2</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">5</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall fontWhite">
-                              <span className="baseBallNumber">25</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                              <div className="baseBallNumber">
+                                <span>15</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">15</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">8</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall fontWhite">
-                              <span className="baseBallNumber">1</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                              <div className="baseBallNumber">
+                                <span>25</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballCyan">
-                              <span className="baseBallNumber">2</span>
-                            </i>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="col-md-3 text-center">
-                        <p>No. of Winners</p>
-                        <p>7</p>
-                      </div>
-                      <div className="col-md-4 text-center">
-                        <p>Date & Time</p>
-                        <small>April 5, 6.00pm</small>
-                      </div>
-                    </div>
-                    <div className="row p-lg-3">
-                      <div className="col-md-5 cardResponsive">
-                        <p>Winning Numbers</p>
-                        <ul className="winningNumbers">
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">0</span>
-                            </i>
-                          </li>
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">2</span>
-                            </i>
-                          </li>
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall fontWhite">
-                              <span className="baseBallNumber">25</span>
-                            </i>
-                          </li>
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">15</span>
-                            </i>
-                          </li>
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall fontWhite">
-                              <span className="baseBallNumber">1</span>
-                            </i>
-                          </li>
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballCyan">
-                              <span className="baseBallNumber">2</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballGreen">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">7</span>
+                              </div>
                             </i>
                           </li>
                         </ul>
@@ -395,79 +398,46 @@ export default function HomePage() {
                       <div className="col-md-5 cardResponsive">
                         <p>Winning Numbers</p>
                         <ul className="winningNumbers">
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">0</span>
+                          <li className="mt-3">
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">0</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">2</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">5</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall fontWhite">
-                              <span className="baseBallNumber">25</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                              <div className="baseBallNumber">
+                                <span>15</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">15</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">8</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall fontWhite">
-                              <span className="baseBallNumber">1</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                              <div className="baseBallNumber">
+                                <span>25</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballCyan">
-                              <span className="baseBallNumber">2</span>
-                            </i>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="col-md-3 text-center">
-                        <p>No. of Winners</p>
-                        <p>7</p>
-                      </div>
-                      <div className="col-md-4 text-center">
-                        <p>Date & Time</p>
-                        <small>April 5, 6.00pm</small>
-                      </div>
-                    </div>
-                    <div className="row p-lg-3">
-                      <div className="col-md-5 cardResponsive">
-                        <p>Winning Numbers</p>
-                        <ul className="winningNumbers">
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">0</span>
-                            </i>
-                          </li>
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">2</span>
-                            </i>
-                          </li>
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall fontWhite">
-                              <span className="baseBallNumber">25</span>
-                            </i>
-                          </li>
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">15</span>
-                            </i>
-                          </li>
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall fontWhite">
-                              <span className="baseBallNumber">1</span>
-                            </i>
-                          </li>
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballCyan">
-                              <span className="baseBallNumber">2</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballGreen">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">7</span>
+                              </div>
                             </i>
                           </li>
                         </ul>
@@ -485,34 +455,160 @@ export default function HomePage() {
                       <div className="col-md-5 cardResponsive">
                         <p>Winning Numbers</p>
                         <ul className="winningNumbers">
-                          <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">0</span>
+                          <li className="mt-3">
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">0</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">2</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">5</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall fontWhite">
-                              <span className="baseBallNumber">25</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                              <div className="baseBallNumber">
+                                <span>15</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballRed">
-                              <span className="baseBallNumber">15</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">8</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall fontWhite">
-                              <span className="baseBallNumber">1</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                              <div className="baseBallNumber">
+                                <span>25</span>
+                              </div>
                             </i>
                           </li>
                           <li>
-                            <i className="fas fa-baseball-ball footerBaseBall baseballCyan">
-                              <span className="baseBallNumber">2</span>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballGreen">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">7</span>
+                              </div>
+                            </i>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col-md-3 text-center">
+                        <p>No. of Winners</p>
+                        <p>7</p>
+                      </div>
+                      <div className="col-md-4 text-center">
+                        <p>Date & Time</p>
+                        <small>April 5, 6.00pm</small>
+                      </div>
+                    </div>
+                    <div className="row p-lg-3">
+                      <div className="col-md-5 cardResponsive">
+                        <p>Winning Numbers</p>
+                        <ul className="winningNumbers">
+                          <li className="mt-3">
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">0</span>
+                              </div>
+                            </i>
+                          </li>
+                          <li>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">5</span>
+                              </div>
+                            </i>
+                          </li>
+                          <li>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                              <div className="baseBallNumber">
+                                <span>15</span>
+                              </div>
+                            </i>
+                          </li>
+                          <li>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">8</span>
+                              </div>
+                            </i>
+                          </li>
+                          <li>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                              <div className="baseBallNumber">
+                                <span>25</span>
+                              </div>
+                            </i>
+                          </li>
+                          <li>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballGreen">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">7</span>
+                              </div>
+                            </i>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col-md-3 text-center">
+                        <p>No. of Winners</p>
+                        <p>7</p>
+                      </div>
+                      <div className="col-md-4 text-center">
+                        <p>Date & Time</p>
+                        <small>April 5, 6.00pm</small>
+                      </div>
+                    </div>
+                    <div className="row p-lg-3">
+                      <div className="col-md-5 cardResponsive">
+                        <p>Winning Numbers</p>
+                        <ul className="winningNumbers">
+                          <li className="mt-3">
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">0</span>
+                              </div>
+                            </i>
+                          </li>
+                          <li>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">5</span>
+                              </div>
+                            </i>
+                          </li>
+                          <li>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                              <div className="baseBallNumber">
+                                <span>15</span>
+                              </div>
+                            </i>
+                          </li>
+                          <li>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballRed">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">8</span>
+                              </div>
+                            </i>
+                          </li>
+                          <li>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballBlack">
+                              <div className="baseBallNumber">
+                                <span>25</span>
+                              </div>
+                            </i>
+                          </li>
+                          <li>
+                            <i className="fas fa fa-circle baseballPreviousDraw baseballGreen">
+                              <div className="baseBallNumber">
+                                <span className="ml-1">7</span>
+                              </div>
                             </i>
                           </li>
                         </ul>
